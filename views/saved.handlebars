@@ -1,6 +1,6 @@
 <div id="articles">
     {{#each articles}}
-        {{#unless saved}}
+        {{#if saved}}
         <div class="well">
             <div class="row">
                 <div class="col-md-3">
@@ -11,7 +11,7 @@
                         <div class="col-md-12">
                             <div class="article-title"><a href="{{vizURL}}">{{title}}</a> | </div>
                             <div class="article-date"> {{date}}</div> 
-                            <button class="btn btn-primary pull-right save" data-articleid={{_id}}>Save</button>
+                            <button class="btn btn-primary pull-right">Comment</button>
                         </div>
                     </div>
                     <div class="row">
@@ -24,6 +24,6 @@
                 </div>
             </div>
         </div>
-        {{/unless}}
+        {{/if}}
     {{/each}}
 </div>

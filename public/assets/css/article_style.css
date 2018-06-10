@@ -1,0 +1,35 @@
+.col-md-3 {
+    padding-right: 0;
+}
+
+.col-md-9 {
+    padding-left: 0;
+}
+
+.article-title {
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.article-date {
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+.page-title {
+    font-size: 58px;
+    color: #428bca;
+}
+
+.page-links {
+    font-size: 18px;
+}
